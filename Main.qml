@@ -80,7 +80,7 @@ Rectangle {
 
                 Label {
                     id: clockLabel
-                    color: generalFontColor
+                    color: "#333333"
                     font.pointSize: root.generalFontSize
                     renderType: Text.QtRendering
                     function updateTime() {
